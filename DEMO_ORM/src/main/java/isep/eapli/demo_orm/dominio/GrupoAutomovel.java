@@ -12,4 +12,12 @@ public class GrupoAutomovel {
     public void setClasse(String classe) {
         this.classe = classe;
     }
+
+    @Override
+    public String toString() {
+        return "GrupoAutomovel{" +
+                "numeroPortas=" + numeroPortas +
+                ", classe='" + classe + '\'' +
+                '}';
+    }
 }
